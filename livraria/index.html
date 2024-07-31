@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Livros</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+    <header>
+        <h1>MCR Books</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#books">Livros</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Bem-vindo à Loja de Livros</h2>
+            <p>Aqui você encontra os melhores livros para todos os gostos.</p>
+        </section>
+
+        <section id="books">
+            <h2>Nossos Livros</h2>
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="book1.jpg" alt="Livro 1">
+                    <h3>Harry Potter</h3>
+                    <p>Autor: J.K. Rolling</p>
+                    <p>Preço: R$ 29,90</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="book-item">
+                    <img src="book2.jpg" alt="Livro 2">
+                    <h3>O Pequeno Principe</h3>
+                    <p>Autor: Antoine de Saint-Exupéri</p>
+                    <p>Preço: R$ 39,90</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="book-item">
+                    <img src="book3.jpg" alt="Livro 3">
+                    <h3>Jogos Vorazes</h3>
+                    <p>Autor: Suzanne Collins</p>
+                    <p>Preço: R$ 49,90</p>
+                    <button>Comprar</button>
+                </div>
+                <!-- Adicione mais livros conforme necessário -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja de Livros. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
